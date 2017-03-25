@@ -1,0 +1,78 @@
+/*Custom font, make sure that you install the font!*/
+@font-face {
+    font-family: helsinki;
+    src: ('Fonts/helsinki/helsinki.ttf'); /*The font must be installed!!!*/
+}
+
+/*Css for the main boddies of text*/
+body{
+font-family: helsinki;
+background: #6ed6e6;
+float:center;
+text-align: center;
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+/*Centrlises the heading*/
+h1{
+	font-family: helsinki;
+	float:center;
+}
+
+/*Link colours and hover colours*/
+a:hover {
+   background-color: #99ccff;
+   color:#0d0033;
+}
+
+a{
+	color:#6633ff;
+	text-decoration:none;
+}
+
+
+/*Putting all the links onto one line*/
+a{
+  float:center;
+}
+nav{
+}
+nav ul{
+}
+nav ul li{
+float:center;
+background-color: white;
+display: inline-block;
+}
+
+/*Css for the links in the footer*/
+footer{
+position:absolute; 
+bottom:0;
+height:5%;
+width:97.5%;
+}
+
+
+/*Colunms*/
+
+.row{
+}
+
+.col{
+  background: white;
+  float:left;
+  margin: 1%;
+  width: 31.3%;
+}
+
+.row{
+}
+
+.col2{
+  float:left;
+  margin: 1%;
+  width: 31.3%;
+}
